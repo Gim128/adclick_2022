@@ -1,50 +1,54 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import  '../../components/Footer/Footer.css';
+import {Link} from "react-router-dom";
+import '../../components/Footer/Footer.css';
 
 const Footer = () => {
-    return(
-         <div className="main-footer">
-             <div className="container">
-                <div className="raw">
-                    <div className="col">
+    return (
+        <div className="main-footer">
+            <div className="container">
+                <div className="row">
+                    <div className="col-4">
                         <h4>Follow US On</h4>
                         <img src="/img/fb.png" alt=""/>
                         <img src="/img/twitter.png" alt=""/>
                         <img src="img/linkedin.png" alt=""/>
                     </div>
 
-                    <div className="col">
+                    <div className="col-4">
                         <h4>Quick Links</h4>
                         <ul className="list-unstyled">
                             <li>Payment History</li>
                             <li>Investment Plan</li>
                             <li>Promote Your Business</li>
-                            <li>Help & Support</li>
+                            <li>Help</li>
                         </ul>
                     </div>
 
-                    <div className="col">
+                    <div className="col-4">
                         <h4>Reviews & Ratings</h4>
-                        <img src='https://aws1.discourse-cdn.com/business4/uploads/electroneum/optimized/2X/d/dd1486e45ebf3f9c6ffadccbf4cc2ff6641f59c5_2_690x286.jpeg' alt=""/>
-                        
+                        <img className="img-box"
+                             src='https://aws1.discourse-cdn.com/business4/uploads/electroneum/optimized/2X/d/dd1486e45ebf3f9c6ffadccbf4cc2ff6641f59c5_2_690x286.jpeg'
+                             alt=""/>
+
                     </div>
-                    
+
                 </div>
 
-                <hr />
+                <hr/>
 
                 <div className="row">
-                    <p className="col-sm">
-                        POWERED BY <span>SENTURA TECHNOLOGIES</span>
-                    </p>
-                </div>
+                    <div className="col">
+                        <p>
+                            POWERED BY <span>SENTURA TECHNOLOGIES</span>
+                        </p>
+                    </div>
 
-                <div className="row-two">
-                   <h4>ALL RIGHTS RESERVED @ 2022</h4>
+                    <div className="col">
+                        <p>ALL RIGHTS RESERVED @ 2022</p>
+                    </div>
                 </div>
-             </div>
-             {/* <section className="footer-subscription">
+            </div>
+            {/* <section className="footer-subscription">
 
              </section>
 
@@ -116,7 +120,7 @@ const Footer = () => {
                 </div>
              </section> */}
 
-         </div>
+        </div>
     )
 }
 

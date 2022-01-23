@@ -7,8 +7,9 @@
     width: 100%;
 }
 
-
-
+.main-footer .container .img-box {
+    width: 25%;
+}
 
 /* .footer-container {
     background-color: rgb(255, 255, 255);
