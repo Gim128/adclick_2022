@@ -7,8 +7,16 @@
     width: 100%;
 }
 
+.main-footer ul li {
+    font-weight: lighter !important;
+}
+
+.main-footer .container {
+    display: contents;
+}
+
 .main-footer .container .img-box {
-    width: 25%;
+    width: 50%;
 }
 
 /* .footer-container {
