@@ -1,5 +1,5 @@
 .img {
-  margin: 80px 0px 40px 0px;
+    margin: 80px 0px 40px 0px;
 }
 
 .fname,
@@ -11,12 +11,12 @@
     margin: 20px;
     color: #969292;
     font-size: 16px;
-    
-} 
-/* 
+
+}
+/*
 .password, .conpassword {
     margin-bottom: 40px;
-    
+
 } */
 
 .input {
@@ -69,11 +69,21 @@ button:active {
 .container{
     /*border: 3px solid rgba(187, 47, 47, 0.301);*/
     text-align: center;
-    
+    background-image: url("../../assets//images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-blend-mode: soft-light;
+
+}
+
+.avatar-one{
+    background-image: url("https://drive.google.com/file/d/1qFGl2TX55-hU4roI0lwMvU7kKXTgkvuX/view?usp=sharing");
+    align-items: center;
+    padding-top: 1px;
 }
 
 /* .avatar {
-    
+
     width: 120px;
     height: 100px;
     left: 406px;
