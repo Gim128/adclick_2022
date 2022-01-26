@@ -1,120 +1,95 @@
 import React, {useState} from 'react';
 import '../App.css';
-import styles from  '../assets/css/Register.css';
+import styles from '../assets/css/Register.css';
 import '../assets/validation/RegisterValidate';
 import useForm from './../screens/useForm';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-import { Checkbox } from '@mui/material';
+import {Checkbox} from '@mui/material';
 import TextField from '@mui/material/TextField';
 
 // export default function Register() {
 //     return <h1 className='register'></h1>
 // }
 
-const Register = ({ submitForm }) => {
+const Register = ({submitForm}) => {
 
-    const { handleChange, handleFormSubmit, values, errors } = useForm(submitForm);
+    const {handleChange, handleFormSubmit, values, errors} = useForm(submitForm);
 
-    return(
+    return (
         <>
             {/* <HeroSection /> */}
-            <div className={"container"} >
-                <div className='background-image'></div>
+            <div className={"container"}>
 
-                <div className='avatar-one'>
-                    {/* <img  src='https://drive.google.com/file/d/1qFGl2TX55-hU4roI0lwMvU7kKXTgkvuX/view?usp=sharing'/> */}
+                <div className="row">
+                    <center>
+                        <div className='avatar-one'>
+                            <img
+                                src='https://i.ibb.co/hBLdcX0/modern-design-register-now-text-speech-bubbles-concept-vector-illustration-189143580-removebg-previe.png'/>
+                        </div>
+                    </center>
                 </div>
 
-                <div className='avatar'>
-                    <img  src='https://img.icons8.com/ios-filled/344/client-management.png'/>
+                <div className="row m-4">
+                    <center>
+                        <div className='avatar'>
+                            <img src='https://img.icons8.com/ios/344/add-user-male.png'/>
+                        </div>
+                    </center>
                 </div>
 
-                <div className='app-wrapper'>
-                    <img src=',/img/reg(1).png' alt=''/>
+                <div className="row">
+                    <form action="">
+                        <div className="in-text">
+                            <div className="form-floating mb-3">
+                                <input type="text" className="form-control" id="txtFirstName"
+                                       placeholder="FIRST NAME"/>
+                                <label htmlFor="txtFirstName">FIRST NAME</label>
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="text" className="form-control" id="txtLastName"
+                                       placeholder="LAST NAME"/>
+                                <label htmlFor="txtLastName">LAST NAME</label>
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="email" className="form-control" id="txtEmail"
+                                       placeholder="EMAIL"/>
+                                <label htmlFor="txtEmail">EMAIL</label>
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="text" className="form-control" id="txtMobileNo"
+                                       placeholder="MOBILE NO."/>
+                                <label htmlFor="txtMobileNo">MOBILE NO.</label>
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="password" className="form-control" id="txtPassword"
+                                       placeholder="PASSWORD"/>
+                                <label htmlFor="txtPassword">PASSWORD</label>
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="password" className="form-control" id="txtConfirmPassword"
+                                       placeholder="CONFIRM PASSWORD"/>
+                                <label htmlFor="txtConfirmPassword">CONFIRM PASSWORD</label>
+                            </div>
+                        </div>
+                        <div className="form-check mb-3">
+                            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                            <label className="form-check-label" htmlFor="flexCheckDefault">
+                                I agree to the <a href="">terms & conditions</a>
+                            </label>
+                        </div>
+                        <div>
+                            <center>
+                                <button className="btn btn-outline-secondary mb-3" type="submit">REGISTER</button>
+                            </center>
+                        </div>
+                    </form>
                 </div>
-                <div className='app-wrapper-1'>
-                    <img src=',/img/reg(2).png' alt=''/>
+                <div className="row">
+                    <center>
+                        <p>Already Have Account? <a href="">SIGN IN</a></p>
+                    </center>
                 </div>
-                <form className='form-wrapper'>
-                    <div className={"fname"}>
-                        <label className='label'>FIRST NAME :</label>
-                        <input className='input'
-                               type="text"
-                               name='firstname'
-                               value={values.fname}
-                               onChange={handleChange}
-                        />
-                        {errors.fname && <p className='error'>{errors.fname}</p>}
-                    </div>
-                    <div className={"lname"}>
-                        <label className='label'>LAST NAME :</label>
-                        <input
-                            className='input'
-                            type="text"
-                            name='lastname'
-                            value={values.lname}
-                            onChange={handleChange}
-                        />
-                        {errors.fname && <p className='error'>{errors.fname}</p>}
-                    </div>
-                    <div className={"email"}>
-                        <label className='label'>EMAIL :</label>
-                        <input className='input'
-                               type="text"
-                               name='email'
-                               value={values.email}
-                               onChange={handleChange}
-                        />
-                        {errors.email && <p className='error'>{errors.email}</p>}
-                    </div>
-                    <div className={"mobile"}>
-                        <label className='label'>MOBILE NO:</label>
-                        <input className='input'
-                               type="text" name='mobileno'
-                               value={values.mobile}
-                               onChange={handleChange}
-                        />
-                        {errors.mobile && <p className='error'>{errors.mobile}</p>}
-                    </div>
-                    <div className={"password"}>
-                        <label className='label'>PASSWORD :</label>
-                        <input className='input'
-                               type="password"
-                               name='pwd'
-                               value={values.password}
-                               onChange={handleChange}
-                        />
-                        {errors.password && <p className='error'>{errors.password}</p>}
-                    </div>
-                    <div className={"conpassword"}>
-                        <label className='label'>CONFIRM PASSWORD :</label>
-                        <input className='input'
-                               type="password"
-                               name='conpwd'
-                               value={values.conpassword}
-                        />
-                        {errors.conpassword && <p className='error'>{errors.conpassword}</p>}
-                    </div>
 
-                    <FormControlLabel
-                        control = {
-                            <Checkbox
-                                name = "checkdB"
-                                color = "primary"
-                            />
-                        }
-                        label = "I agree to the Terms & Conditions"
-                    />
-
-                    <div>
-                        <button className='submit' onClick={handleFormSubmit}>REGISTER</button>
-                    </div>
-
-                    <div>
-                        <p></p>
-                    </div>
-
-                </form>
             </div>
             {/* <footer /> */}
         </>
