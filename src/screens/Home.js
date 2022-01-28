@@ -2,15 +2,15 @@ import React from 'react';
 import '../../src/App.css'
 import HeroSection from '../components/HeroSection';
 
-function Home () {
-    return(
-    <>
-        {/* <HeroSection /> */}
-        <div>
-            Home
-        </div>
-        {/* <footer /> */}
-    </>
+function Home() {
+    return (
+        <>
+            {/* <HeroSection /> */}
+            <div>
+                <HeroSection/>
+            </div>
+            {/* <footer /> */}
+        </>
     )
 }
 
