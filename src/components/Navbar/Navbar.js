@@ -95,7 +95,7 @@ const Navbar = () => {
                             <li className="nav-item"><a className="nav-link" href="#">HOME</a></li>
                             <li className="nav-item"><a className="nav-link" href="#">EARN</a></li>
                             <li className="nav-item"><a className="nav-link" href="#">ADVERTISING</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">CONTACT US</a></li>
+                            <li className="nav-item"><a className="nav-link" href="Contact">CONTACT US</a></li>
                             <li className="nav-item"><a className="nav-link" href="#"><span>REGISTER</span></a></li>
                             <li className="nav-item"><a className="nav-link" href="#"><span>SIGN-IN</span></a></li>
                         </ul>
