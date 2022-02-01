@@ -46,13 +46,13 @@ function App() {
      <Register />
      
       <Routes>
-      {/* <Route path="/contact" element={<Contact />} />  
-      <Route path="/earn" element={<Earn />} /> */}
+      <Route path="/contact" element={<Contact />} />  
+      <Route path="/earn" element={<Earn />} />
       <Route path="/advertising" element={<Advertising />} />
-      {/* <Route path="/home" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/" element={<Home />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/signin" element={<Signin />} /> */}
+      <Route path="/signin" element={<Signin />} />
 
         
       </Routes>

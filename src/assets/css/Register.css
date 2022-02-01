@@ -19,18 +19,22 @@
 
 } */
 
-.input {
-    height: 32px;
-    font-size: 20px;
-    outline: none;
-    width: 20%;
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    border-bottom-style: 2px solid black;
-    margin-bottom: 10px;
-    /* background-color: #C4C4C4; */
-    /* border-radius: 20px; */
+.in-text input {
+    border-radius: 35px !important;
+    border: 2px solid #C4C4C4 !important;
+    background: #C4C4C4 !important;
+    padding-left: 20px !important;
+    width: 80%;
+    align-items: center;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 35px !important;
+}
+
+label {
+    padding-left: 10px !important;
 }
 
 .error {
@@ -68,18 +72,22 @@ button:active {
 
 .container{
     /*border: 3px solid rgba(187, 47, 47, 0.301);*/
-    text-align: center;
-    background-image: url("../../assets//images/bg.jpg");
+    /*text-align: center;*/
+    /*background-image: url('/public/img/bg-01.jpg');*/
     background-repeat: no-repeat;
     background-position: top center;
     background-blend-mode: soft-light;
 
 }
 
-.avatar-one{
-    background-image: url("https://drive.google.com/file/d/1qFGl2TX55-hU4roI0lwMvU7kKXTgkvuX/view?usp=sharing");
-    align-items: center;
-    padding-top: 1px;
+.avatar-one img{
+    width: 150px;
+    height: 150px;
+}
+
+.avatar img {
+    width: 250px;
+    height: 250px;
 }
 
 /* .avatar {

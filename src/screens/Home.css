@@ -1,0 +1,50 @@
+.benefit-cards {
+
+}
+
+.benefit-cards .card-ben {
+    border-radius: 35px;
+    background-color: #C4C4C4;
+    padding: 10px;
+}
+
+.benefit-cards .card-ben button {
+    background-color: #D81717;
+    color: #ffffff;
+    border-radius: 35px;
+    padding: 5px 15px;
+}
+
+.foo-sec {
+    background-image: url("/public/img/bg-03.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.foo-sec .sec-part1 {
+    background-color: #ECE8E8;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.foo-sec .sec-part1 button {
+    background-color: #D81717;
+    color: #ffffff;
+    border-radius: 35px;
+    padding: 5px 15px;
+}
+
+.foo-sec .sec-part3 iframe {
+    padding: 10px;
+}
+
+.foo-sec .sec-s {
+    height: 150px;
+}
+
+@media only screen and (orientation: portrait) {
+    .foo-sec .sec-s {
+        display: none;
+    }
+}
