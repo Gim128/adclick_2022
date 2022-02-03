@@ -92,12 +92,12 @@ const Navbar = () => {
                     </div>
                     <div className="nav-right">
                         <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-                            <li className="nav-item"><a className="nav-link" href="#">HOME</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">EARN</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">ADVERTISING</a></li>
+                            <li className="nav-item"><a className="nav-link" href="Home">HOME</a></li>
+                            <li className="nav-item"><a className="nav-link" href="Earn">EARN</a></li>
+                            <li className="nav-item"><a className="nav-link" href="Advertising">ADVERTISING</a></li>
                             <li className="nav-item"><a className="nav-link" href="Contact">CONTACT US</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#"><span>REGISTER</span></a></li>
-                            <li className="nav-item"><a className="nav-link" href="#"><span>SIGN-IN</span></a></li>
+                            <li className="nav-item"><a className="nav-link" href="Register"><span>REGISTER</span></a></li>
+                            <li className="nav-item"><a className="nav-link" href="Signin"><span>SIGN-IN</span></a></li>
                         </ul>
                     </div>
                 </div>

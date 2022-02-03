@@ -42,7 +42,8 @@ const Register = ({submitForm}) => {
                         <div className="in-text">
                             <div className="form-floating mb-3">
                                 <input type="text" className="form-control" id="txtFirstName"
-                                       placeholder="FIRST NAME"/>
+                                       placeholder="FIRST NAME" />
+                                       <i className='fa fa-user'></i>
                                 <label htmlFor="txtFirstName">FIRST NAME</label>
                             </div>
                             <div className="form-floating mb-3">

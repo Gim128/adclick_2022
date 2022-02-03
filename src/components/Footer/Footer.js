@@ -17,10 +17,27 @@ const Footer = () => {
                     <div className="col-4">
                         <h4>Quick Links</h4>
                         <ul className="list-unstyled">
-                            <li>Payment History</li>
-                            <li>Investment Plan</li>
-                            <li>Promote Your Business</li>
-                            <li>Help</li>
+                            <li>
+                                <div>
+                                    <a href="/payment-history">Payment History</a>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="/investment">Investment Plan</a>
+                                </div> 
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="/promote-business">Promote Your Business</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="/help">Help</a> 
+                                </div>
+                            </li>
                         </ul>
                     </div>
 
