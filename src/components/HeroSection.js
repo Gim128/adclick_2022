@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import {Button} from './button/Button';
 
-import '../components/HeoSection.css';
+import '../components/HeroSection.css';
 
 function HeroSection() {
     return (

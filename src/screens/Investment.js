@@ -16,7 +16,7 @@ function Investment() {
             </div>
 
             <div className='row'>
-                <img src='https://ibb.co/WW7fLSK' alt=''/>
+                <img src='https://drive.google.com/file/d/1Hze9i4J_2btoWIpA562_AqRoQI0SX4or/view?usp=sharing' alt=''/>
             </div>
             
                  
