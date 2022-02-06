@@ -18,8 +18,9 @@ import Advertising from './screens/Advertising';
 import Contact from './screens/Contact';
 import Register from './screens/Register';
 import Signin from './screens/Signin';
-// import Card from './components/Card/';
+import Investment from "./screens/Investment";
 
+// import Card from './components/Card/';
 import ReactDOM from 'react-dom';
 
 
@@ -53,6 +54,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/register" element={<Register />} />
       <Route path="/signin" element={<Signin />} />
+      <Route path="/investment-plan" element={<Investment />} />
 
         
       </Routes>

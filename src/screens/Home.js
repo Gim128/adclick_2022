@@ -10,7 +10,7 @@ function Home() {
             <div>
                 <HeroSection/>
                 <section className="container-fluid">
-                    <div className="row">
+                    <div className="row p-5">
                         <div className="col-sm">
                             <h2 className="text-center">About WAVE90's</h2>
                             <p className="text-center"> centuries, but also the leap into electronic typesetting,
