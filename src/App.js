@@ -19,6 +19,7 @@ import Contact from './screens/Contact';
 import Register from './screens/Register';
 import Signin from './screens/Signin';
 import Investment from "./screens/Investment";
+import PaymentHistory from "./screens/PaymentHistory";
 
 // import Card from './components/Card/';
 import ReactDOM from 'react-dom';
@@ -55,6 +56,7 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/signin" element={<Signin />} />
       <Route path="/investment-plan" element={<Investment />} />
+      <Route path="/payment-history" element={<PaymentHistory />} />
 
         
       </Routes>
@@ -62,8 +64,6 @@ function App() {
     </BrowserRouter>
   );
 }
-
-
 
 export default App;
 

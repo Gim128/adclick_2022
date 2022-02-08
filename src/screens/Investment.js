@@ -1,8 +1,6 @@
 import React from 'react';
 import '../assets/css/investment.css';
 
-// import HeroSection from '../components/HeroSection';
-
 function Investment() {
     return (
         <div className='container'>
