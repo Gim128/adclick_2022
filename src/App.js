@@ -24,6 +24,7 @@ import PaymentHistory from "./screens/PaymentHistory";
 
 // import Card from './components/Card/';
 import ReactDOM from 'react-dom';
+import Withdrawal from "./screens/Withdrawal";
 
 
 
@@ -53,7 +54,8 @@ function App() {
       <Route path="/earn" element={<Earn />} />
       <Route path="/advertising" element={<Advertising />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/" element={<Home />} />
+      {/*<Route path="/" element={<Home />} />*/}
+      <Route path="/withdrawal" element={<Withdrawal />} />
       <Route path="/register" element={<Register />} />
       <Route path="/signin" element={<Signin />} />
       <Route path="/investment-plan" element={<Investment />} />

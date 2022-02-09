@@ -66,15 +66,15 @@ button:active {
 }
 
 
-.container{
-    /*border: 3px solid rgba(187, 47, 47, 0.301);*/
-    text-align: center;
-    background-image: url("/public/img/bg-03.jpeg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-blend-mode: soft-light;
+/*.container{*/
+/*    !*border: 3px solid rgba(187, 47, 47, 0.301);*!*/
+/*    text-align: center;*/
+/*    background-image: url("/public/img/bg-03.jpeg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: top center;*/
+/*    background-blend-mode: soft-light;*/
 
-}
+/*}*/
 
 .avatar-one{
     background-image: url("https://drive.google.com/file/d/1qFGl2TX55-hU4roI0lwMvU7kKXTgkvuX/view?usp=sharing");

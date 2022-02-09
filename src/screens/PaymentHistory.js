@@ -5,33 +5,26 @@ import Box from '@mui/material/Box';
 export  default function PaymentHistory() {
     return(
         <div>
-            <Box
-                sx={{
-                    width: 1600,
-                    height: 300,
-                    backgroundColor: '#c0392b',
-                }
-                }
-            />
-            <div>
-                <h1>Payments</h1>
-            </div>
+            <div className="bg-red">
 
-            <div className="container">
-            <div className="row">
-                <div className="col">
-                    <p>Total Payments</p>
-                    <h2>$80450.65</h2>
+                <div className="row px-5">
+                    <h1>Payments</h1>
+                </div><br/><br/>
+
+                <div className="row p-5">
+                    <div className="col">
+                        <p>Total Payments</p>
+                        <h2>$80450.65</h2>
+                    </div>
+                    <div className="col">
+                        <p>Last Month</p>
+                        <h2>$8045.65</h2>
+                    </div>
+                    <div className="col">
+                        <p>Last 60 Days</p>
+                        <h2>$845.65</h2>
+                    </div>
                 </div>
-                <div className="col">
-                    <p>Last Month</p>
-                    <h2>$8045.65</h2>
-                </div>
-                <div className="col">
-                    <p>Last 60 Days</p>
-                    <h2>$845.65</h2>
-                </div>
-            </div>
             </div>
 
             <div>

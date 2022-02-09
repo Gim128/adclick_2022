@@ -5,33 +5,46 @@ import Footer from "../components/Footer/Footer";
 
 function Withdrawal() {
     return(
-        <div className="container">
-
-           <div className="box">
-                <h3>Withdrawal</h3>
-           </div>
-
-            <div className="heading-center">
-                <p>PENDING AMOUNT</p>
-                <h2>$0000.00</h2>
+        <div className="container text-body">
+            <div className="row text-center">
+                <div className="col-sm">
+                    <h1 className="display-1 text-uppercase">WITHDRAWAL</h1>
+                </div>
             </div>
-
-            <Box
-                component="form"
-                sx={{
-                    '& > :not(style)': { m: 1, width: '35ch' },
-                }}
-                noValidate
-                autoComplete="off"
-            >
-                <TextField id="standard-basic" label="Fund" variant="standard" />
-                <TextField id="standard-basic" label="Amount" variant="standard" />
-                <TextField id="standard-basic" label="Password" type="password" variant="standard" />
-            </Box>
-
-            <button type="button" className="btn btn-primary btn-lg">WITHDRAW</button>
-
-
+            <br/>
+            <div className="row">
+                <div className="col-sm">
+                    <div className="container bg-secondary bg-opacity-25 p-5 text-body">
+                        <div className="row text-center">
+                            <div className="col-sm">
+                                <h2 className="text-uppercase">Pending Amount</h2>
+                            </div>
+                        </div>
+                        <div className="row text-center">
+                            <div className="col-sm">
+                                <h2 className="text-uppercase">$0000.00</h2>
+                            </div>
+                        </div> <br/><br/>
+                        <div className="row fo-r-m">
+                            <form action="">
+                                <div className="form-floating mb-3">
+                                    <input type="number" className="form-control" id="txtFound" placeholder="Type Found"/>
+                                    <label htmlFor="txtFound">Found</label>
+                                </div>
+                                <div className="form-floating mb-3">
+                                    <input type="number" className="form-control" id="txtAmount" placeholder="Type Amount"/>
+                                    <label htmlFor="txtAmount">Amount</label>
+                                </div>
+                                <div className="form-floating mb-3">
+                                    <input type="password" className="form-control" id="txtPassword" placeholder="Type Password"/>
+                                    <label htmlFor="txtPassword">Password</label>
+                                </div>
+                                <button className="btn btn-primary text-uppercase px-4 btn-lg" type="submit">Withdraw</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     )
