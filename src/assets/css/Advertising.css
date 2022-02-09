@@ -1,8 +1,15 @@
-.header-tra {
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
     position: absolute;
-    width: 1070px;
-    height: 50px;
-    left: 0px;
-    top: 62px;
-    opacity: 0.9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }

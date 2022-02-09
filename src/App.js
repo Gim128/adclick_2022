@@ -21,6 +21,7 @@ import Signin from './screens/Signin';
 import Investment from "./screens/Investment";
 import PaymentHistory from "./screens/PaymentHistory";
 
+
 // import Card from './components/Card/';
 import ReactDOM from 'react-dom';
 
