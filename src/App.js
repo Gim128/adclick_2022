@@ -20,6 +20,7 @@ import Register from './screens/Register';
 import Signin from './screens/Signin';
 import Investment from "./screens/Investment";
 import PaymentHistory from "./screens/PaymentHistory";
+import UserDashboard from "./screens/UserDashboard";
 
 
 // import Card from './components/Card/';
@@ -60,6 +61,7 @@ function App() {
       <Route path="/signin" element={<Signin />} />
       <Route path="/investment-plan" element={<Investment />} />
       <Route path="/payment-history" element={<PaymentHistory />} />
+      <Route path="/UserDashboard" element={<UserDashboard />} />
 
         
       </Routes>

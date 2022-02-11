@@ -1,0 +1,75 @@
+.user-dashboard .bg-pic {
+    background-image: url("https://www.pngitem.com/pimgs/m/50-504111_falling-money-png-raining-dollar-bills-png-transparent.png") !important;
+}
+
+.user-dashboard .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #F0EFEF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.user-dashboard .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.user-dashboard .sidebar a.active {
+    background-color: #D80B10;
+    color: white;
+}
+
+.user-dashboard .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.user-dashboard  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .user-dashboard .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .user-dashboard .sidebar a {float: left;}
+    .user-dashboard div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.user-dashboard .box {
+    width: 100%;
+    background-color: #F0EFEF;
+    margin-bottom: 10px;
+}
+
+.user-dashboard .box .box-top {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #D80B10;
+}
+
+.user-dashboard .box .box-top h1 {
+    color: #ffffff;
+}
+
+.user-dashboard .box .box-bottom table {
+    width: 100%;
+}
